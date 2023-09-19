@@ -1,0 +1,152 @@
+body {
+  font-family: Verdana;
+  text-align: center;
+  background-color: #fff8f2;
+  color: #212322;
+}
+
+header {
+  background-color: #7C2629;
+  padding: 10px;
+  align-items: center;
+}
+
+h1 {
+  color: #fff8f2;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+nav {
+  background-color: #4E3524;
+  padding: 20px;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+}
+
+nav li a{
+  background-color: #fff8f2;
+  padding: 10px;
+  border-radius: 10px; 
+  color: #4E3524;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+nav li a:hover{
+  color: #FFA400;
+  border: 5px solid #FFA400;
+}
+
+nav li a:active{
+  background-color: #7C2629;
+  border-color: #7C2629; 
+  border: 5px solid #FFA400;
+}
+
+#colours {
+  margin: 40px;
+  border: 1px solid black;
+}
+
+#swatches{
+  color: #fff8f2;
+  margin: 10px;
+}
+
+#swatches > div{
+  margin: 10px;
+  padding: 10px;
+}
+
+#color-1 {
+  background-color: #212322;
+}
+#color-2 {
+  background-color: #4E3524;
+}
+#color-3 {
+  background-color: #7C2629;
+}
+#color-4 {
+  background-color: #CF4520;
+}
+#color-5 {
+  background-color: #FFA400;
+}
+#color-6 {
+  background-color: #36573B;
+}
+
+
+#fonts {
+  margin: 40px;
+  border: 1px solid black;
+  font-size: 30px;
+}
+
+#fonts > div{
+  margin: 10px;
+  padding: 10px;
+}
+
+#fonts > div p{
+  font-size: 20px;
+}
+
+#font-1 {
+  font-family: 'Handjet', cursive;
+}
+#font-2 {
+  font-family: 'Tourney', cursive;
+}
+#font-3 {
+  font-family: 'Dosis', sans-serif;
+}
+
+.light {
+  font-weight: 200;
+}
+.regular {
+  font-weight: 400;
+}
+.bold {
+  font-weight: 800;
+}
+
+#textstyles {
+  margin: 40px;
+  border: 1px solid black;
+
+}
+
+#textstyles > div{
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+#style-1 .title {
+  font-weight: 800;
+  font-size: 46px;
+  font-family: 'handjet'
+}
+#style-2 .title {
+  font-weight: 400;
+  font-size: 32px;
+  font-family: 'tourney'
+}
+#style-3 .title {
+  font-weight: 200;
+  font-size: 18px;
+  font-family: 'dosis'
+}

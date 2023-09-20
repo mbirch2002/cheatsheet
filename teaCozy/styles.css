@@ -6,11 +6,12 @@ body{
     text-align: center;
 }
 
+/*header and nav*/
 header {
     height: 69px;
     display: flex; /* Position items side-by-side*/
     background-color: black;
-    position: fixed; /* Set the navbar to fixed position */
+    position: sticky; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
     align-items: center; /*center on y-axis(cross axis)*/
@@ -37,10 +38,26 @@ header {
 #navbar li a{
     text-decoration: underline;
     color: seashell;
-
+    padding-inline: 20px;
 }
 
+/*Mission section*/
+#mission {
+    width: 90%;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
+#text-over {
+    background-color: black;
+    width: 1200px;
+}
 
 
 

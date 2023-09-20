@@ -1,1 +1,47 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    display: flex; /* Position items side-by-side*/
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    align-items: center; /*center on y-axis(cross axis)*/
+    border-bottom: 1px solid seashell;
+}
+
+#logo img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+#navbar {
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+}
+
+#navbar li{
+    list-style-type:none;
+    display: inline;  
+    
+}
+
+#navbar li a{
+    text-decoration: underline;
+    color: seashell;
+
+}
+
+
+
+
+
 

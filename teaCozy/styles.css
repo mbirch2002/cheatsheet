@@ -80,11 +80,45 @@ header {
     width: 100%
 }
 
-.box img {
+#featured img {
     width: 300px;
 }
 
-.box figcaption {
+#featured figcaption {
     margin-top: 10px;
 }
 
+/*Locations section*/
+#locations {
+    width: 1200px;
+    height: 500px;  
+    margin: 0 auto; /*centered section*/
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: center;
+    /*background-size: cover;*/
+}
+
+#locations-header {
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
+
+#locations .container {
+    display: flex;
+    /*flex-direction: row;*/
+    align-items: center;
+}
+
+.box {
+    background-color: black;
+    width: 300px;
+    height: auto;
+    margin: 0px 40px;
+    /*margin-bottom: 40px;*/
+  }
+
+  /*contact info section*/
+  footer {
+    text-align: left;
+    margin-left: 20px;
+  }

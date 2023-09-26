@@ -1,0 +1,338 @@
+html, body {
+    background-color: #D7C5BB;
+    font-size: 20;
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    margin: 0% 5%;
+}
+
+/*PALETTE*/
+.palette {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.colour {
+    height: 100%;
+    width: 20%; 
+    border: 3px solid seashell;
+}
+
+#one{
+    background-color: #336C5B;
+}
+
+#two{
+    background-color: #BC9879;
+}
+
+#three{
+    background-color: #D7C5BB;
+}
+
+#four{
+    background-color: #6F9180;
+}
+
+#five{
+    background-color: #925055;
+}
+
+/*HEADER TITLE*/
+@font-palette-values --nabla {
+    font-family: 'Nabla';
+    base-palette: 5;
+    override-colors: 0 hsl(162deg 36% 31%),
+    1 hsl(162deg 36% 31%),
+    2 hsl(150deg 13% 50%),
+    3 hsl(162deg 36% 31%),
+    4 hsl(150deg 13% 50%),
+    5 hsl(162deg 36% 31%),
+    6 hsl(150deg 13% 50%),
+    7 hsl(162deg 36% 31%),
+    8 hsl(150deg 13% 50%),
+    9 hsl(162deg 36% 31%),
+    10 hsl(150deg 13% 50%);
+}
+
+h1 {
+    color: #336C5B;
+    text-align: center;
+    font-family: 'Nabla', cursive;
+    font-palette: --nabla;
+    font-size: 5rem;
+}
+
+
+
+/*NAVIGATION*/
+nav {
+    background-color: #6F9180;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-top: 5px solid #336C5B;
+    border-bottom: 5px solid #336C5B;
+}
+
+nav li{
+    list-style-type:none;
+    display: inline;
+}
+
+nav li a{
+    text-decoration: none;
+    font-family: 'Dela Gothic One', cursive;
+    color: #BC9879;
+    background-color: #D7C5BB;
+    border: 5px solid #336C5B;
+    border-radius: 5px;
+    padding-inline: 20px;
+}
+
+nav li a:hover {
+    border-color: #BC9879;
+}
+
+nav li a:active {
+    border-color: #925055;
+    color: #925055;
+}
+
+/*ABOUT*/
+#about {
+    margin-top: 50px;
+}
+
+
+h2 {
+    font-family: 'Climate Crisis', cursive;
+    font-size: 2rem;
+    color: #BC9879;
+    -webkit-text-stroke: 2px #925055;
+}
+
+button{
+    font-family: 'Dela Gothic One', cursive;
+    color: #336C5B;
+    background-color: #6F9180;
+    border: 5px solid #336C5B;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: #BC9879;
+    background-color: #D7C5BB;
+    border-color: #BC9879;
+}
+
+button:active {
+    border-color: #925055;
+    color: #925055;
+}
+
+
+/*EVENTS*/
+#events {
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 1rem;
+}
+
+
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+    border: 10px solid #336C5B;
+
+    /*nested flexbox to aling text elements*/
+    display: flex;
+    flex-direction: column;
+}
+
+#jan {
+    background-image: url("https://images.unsplash.com/photo-1568051417544-7be7671f4c2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2680&q=80");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#jan:hover {
+    background-image: none;
+    color: black;
+}
+
+#feb {
+    background-image: url("https://image.floranext.com/instances/mohicanflowers_com/catalog/product/s/c/screen_shot_2023-01-31_at_12.15.52_pm_1_1.png.webp?h=700&w=700&r=255&g=255&b=255");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#feb:hover {
+    background-image: none;
+    color: black;
+}
+
+#mar {
+    background-image: url("https://media.vogue.co.uk/photos/5f74544e09b6bab5c91a810a/master/w_1600%2Cc_limit/shutterstock_1722823600.jpg");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#mar:hover {
+    background-image: none;
+    color: black;
+}
+
+#apr {
+    background-image: url("https://www.londonxlondon.com/wp-content/uploads/2022/03/st-pauls-shutterstock_1941695563-1.jpg");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#apr:hover {
+    background-image: none;
+    color: black;
+}
+
+#may {
+    background-image: url("https://assets.londonist.com/uploads/2019/04/i875/31760152_1870509506326479_6962223625554362368_n.jpg");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#may:hover {
+    background-image: none;
+    color: black;
+}
+
+#jun {
+    background-image: url("https://www.bhg.com/thmb/SmP3zqXqzI7Ls8qW4eGYPW6yNFo=/1159x0/filters:no_upscale():strip_icc()/woman-haarvesting-vegetables-in-garden-ad4e9942-6c2139192aec49aeb46256594d1fc8bb.jpg");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#jun:hover {
+    background-image: none;
+    color: black;
+}
+
+#jul {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5e4c074b122d1c2417674e8e/1586365841757-EWNB3SASK89OX41803UY/2020_03_10_Hayley_Terrarium-4.jpg");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#jul:hover {
+    background-image: none;
+    color: black;
+}
+
+#aug {
+    background-image: url("https://i.pinimg.com/736x/72/6f/5c/726f5cac5252fd041a055be1012a7ce1.jpg");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#aug:hover {
+    background-image: none;
+    color: black;
+}
+
+#sep {
+    background-image: url("https://static01.nyt.com/images/2022/10/30/realestate/26GARDEN-FALL/26GARDEN-FALL-superJumbo.jpg");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#sep:hover {
+    background-image: none;
+    color: black;
+}
+
+#oct {
+    background-image: url("https://www.bssf.org/wp-content/uploads/2014/02/2015-07-09-04.21.54mod.jpg");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#oct:hover {
+    background-image: none;
+    color: black;
+}
+
+#nov {
+    background-image: url("https://cdn.plantssparkjoy.com/wp-content/uploads/2021/10/09142406/gardening-rows-companion-plants-for-carrots.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#nov:hover {
+    background-image: none;
+    color: black;
+}
+
+#dec {
+    background-image: url("https://img.homejournal.com/202012/5fc9fc40070e8.jpg");
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#dec:hover {
+    background-image: none;
+    color: black;
+}
+
+
+
+/*FORUM*/
+#forum {
+    margin-top: 50px;
+}
+
+
+/*FOOTER*/
+footer {
+    margin-top: 50px;
+    height: 100px;
+    background-color: #336C5B;
+    display: flex;
+    flex-flow: column;
+    align-contennt: center;
+}

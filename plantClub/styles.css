@@ -319,8 +319,6 @@ h4 {
     color: black;
 }
 
-
-
 /*FORUM*/
 #forum {
     margin-top: 50px;
@@ -336,3 +334,10 @@ footer {
     flex-flow: column;
     align-contennt: center;
 }
+
+@media only screen and (max-width: 650px) {
+    .box {
+      width: 175px;
+      height: 175px;
+    }
+  }

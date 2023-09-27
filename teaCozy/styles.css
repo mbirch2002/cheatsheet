@@ -4,6 +4,7 @@ body{
     color: seashell;
     background-color: black;
     text-align: center;
+    margin: 0;
 }
 
 /*header and nav*/
@@ -31,8 +32,7 @@ header {
 
 #navbar li{
     list-style-type:none;
-    display: inline;  
-    
+    display: inline;   
 }
 
 #navbar li a{
@@ -43,9 +43,8 @@ header {
 
 /*Mission section*/
 #mission {
-    width: 90%;
     height: 700px;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -54,6 +53,7 @@ header {
     background-size: cover;
 }
 
+
 #text-over {
     background-color: black;
     width: 1200px;
@@ -61,14 +61,10 @@ header {
 
 /*Featured tea section*/
 #featured {
-    width: 1000px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
-    background-color: dodgerblue;
     margin: 0 auto; /*centered section*/
-}
-
-#featured-header {
     margin-top: 50px;
 }
 
@@ -77,25 +73,32 @@ header {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    width: 100%
+    width: 100%;
 }
 
-#featured img {
+figure {
+    margin: 0;
+}
+
+figure img {
     width: 300px;
+    height: 200px;
+    margin: 10px;
 }
 
-#featured figcaption {
-    margin-top: 10px;
+figure figcaption {
+    /*margin-top: 10px;*/
 }
 
 /*Locations section*/
 #locations {
-    width: 1200px;
-    height: 500px;  
+    max-width: 1200px;
+    min-height: 500px;  
     margin: 0 auto; /*centered section*/
+    margin-top: 50px;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
     background-position: center;
-    /*background-size: cover;*/
+    background-size: cover;
 }
 
 #locations-header {
@@ -113,12 +116,20 @@ header {
     background-color: black;
     width: 300px;
     height: auto;
-    margin: 0px 40px;
+    margin: 40px;
     /*margin-bottom: 40px;*/
   }
 
   /*contact info section*/
+  #contact {
+    margin: 0 auto; /*centered section*/
+    margin-top: 50px;
+  }
+
   footer {
     text-align: left;
+    margin: 0 auto; /*centered section*/
+    margin-top: 50px;
     margin-left: 20px;
   }
+

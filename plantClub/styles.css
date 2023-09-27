@@ -107,7 +107,9 @@ nav li a:active {
 
 /*ABOUT*/
 #about {
+    margin: 0 auto;
     margin-top: 50px;
+    max-width: 575px;
 }
 
 
